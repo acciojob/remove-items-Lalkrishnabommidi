@@ -5,3 +5,6 @@ function removeColor() {
     select.remove(select.selectedIndex);
   }
 }
+
+const button = document.querySelector('input[type="button"]');
+button.addEventListener("click", removeColor);
